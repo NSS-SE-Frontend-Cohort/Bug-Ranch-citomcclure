@@ -76,9 +76,9 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > It will be an array of 5 non-unique drovers, which are objects that include an id, first and last name, and gender
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > drovers is the array discussed above. We iterate through the array one drover at a time, which is what drover represents on any given iteration
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
 4. Also in the **journey** module, there is the following code:
@@ -88,11 +88,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > For the random number of forests we generated in createForests(), we will push a single forest onto the areas array.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > database consists of two key-value pairs - cattleTypes and drovers. For cattleTypes key, the value is an array of four objects, each object consisting of a key-value pair of id and breed. For drovers, it is an array of 50 objects, each object consisting of a key-value pair of id, first name, last name, and gender. Ultimately, database is like a dictionary of dictionaries to provide information for the rest of the program.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > herdSize is an argument for hireDrovers(), which is expecting a number when the function is invoked in main.js
 
 ## When You Are Done
 
