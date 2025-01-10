@@ -25,6 +25,9 @@ Here are your learning objectives for this self-assessment.
 1. Able to use the debugger to step through existing code to discover root causes of bugs.
 2. Drawing a sequence diagram for a project.
    > Use the [sequencediagram.org](https://sequencediagram.org/) site to generate your sequence diagram. Make sure you save your work as you go.
+
+   ![alt text](image.png)
+   
 3. Demonstrate learning efficiency by researching concepts you haven't seen before using your peers, mentors, and the World Wide Web as resources.
 4. Awareness of when you need help, and then seeking it out.
 
@@ -80,7 +83,7 @@ Your journey will take you through the wildness of the American Midwest and acro
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
    > drovers is the array discussed above. We iterate through the array one drover at a time, which is what drover represents on any given iteration
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > https://www.loom.com/share/ae87f9e15fd348d5be22648b1dcbbade
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
